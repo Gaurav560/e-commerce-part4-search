@@ -64,8 +64,8 @@ public class ProductServiceImpl implements ProductService {
         productRepo.deleteById(id);
     }
     @Override
-    public List<Product> searchProducts(String keyword, Integer id) {
-        return productRepo.searchProducts(keyword, id);
+    public List<Product> searchProducts(String keyword) {
+        return productRepo.searchProducts(keyword);
     }
 
 

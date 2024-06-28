@@ -11,5 +11,5 @@ public interface ProductService {
     Product createProduct(Product product, MultipartFile imageFile) throws Exception;
     Product updateProduct(Integer id, Product product, MultipartFile imageFile) throws Exception;
     void deleteProduct(Integer id);
-    List<Product> searchProducts(String keyword, Integer id);
+    List<Product> searchProducts(String keyword);
 }
